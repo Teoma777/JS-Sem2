@@ -22,3 +22,17 @@ redEdit.addEventListener("click", function() {
 redText.style.color = "red";	
 	console.log("RED OK");
 });
+
+
+var greenEdit = document.getElementsByClassName("btn btn-sm btn-outline-secondary")[1];
+var greenText = document.getElementsByClassName("card-text")[1];
+
+greenEdit.addEventListener("click", function() {
+	if (greenText.style.color === "") {
+		greenText.style.color = "green"
+	}else{
+		greenText.style.color = ""
+	}
+});
+
+
