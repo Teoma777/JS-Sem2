@@ -35,4 +35,20 @@ greenEdit.addEventListener("click", function() {
 	}
 });
 
+var atomicBar = document.getElementsByClassName('navbar navbar-dark bg-dark box-shadow')[0];
+var bsLink = document.querySelector("head > link:nth-child(2)");
+
+
+atomicBar.addEventListener("dblclick", function() {
+		console.log("ATOMIC");
+
+	if (bsLink.href = "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css") {
+			bsLink.href = ""
+	}else if (bsLink.href = ""){
+
+		bsLink.href = "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+	}
+});
+
+
 
